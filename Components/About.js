@@ -18,8 +18,8 @@ function About() {
         </div>
         <div>
           <Image
-            src="https://i.pinimg.com/originals/b8/b7/fa/b8b7faa068cb612f21a7f7268313064b.png"
-            className="rounded-2xl mx-12 mt-8 w-2/3 md:w-full h-full justify-center "
+            src="/assets/dev.png" width={600} height={600}
+            className="rounded-2xl mx-12 mt-8 justify-center "
           />
         </div>
       </div>
