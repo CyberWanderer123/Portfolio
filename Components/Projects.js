@@ -35,9 +35,9 @@ function Projects() {
         <h2 className='text-center text-3xl text-indigo-200 underline py-8'>My Projects</h2>
          <div className=' md:grid grid-cols-2'>
         {portfolios.map(({id, image, demo, code, desc, style}) => 
-        <div key={id} className={'ml-20 bg-indigo-500 border border-indigo-400 mx-10 rounded-xl md:w-[500px] h-fit' + " " + style}>
+        <div key={id} className={'bg-indigo-500 border border-indigo-400 mx-6 rounded-xl md:w-[500px] h-fit' + " " + style}>
         <Image src={image} alt="Netflix Clone" width="500" height="250" className="rounded-xl border-2 border-indigo-400"/>
-        <div className='justify-between text-center py-3 flex content-center border-b border-indigo-400'>
+        <div className='justify-between text-center px-4 py-3 flex content-center border-b border-indigo-400'>
           <a href={demo} target="_blank" rel='noreferrer'>
           <button className='px-12 rounded-xl bg-indigo-200' href={demo} >Demo</button>
           </a>
