@@ -7,8 +7,8 @@ function Projects() {
     {
       id: 1,
       image: '/assets/projects/Portfolio.png',
-      demo: '',
-      code: '',
+      demo: 'https://portfolio-anurag4518.vercel.app/',
+      code: 'https://github.com/Anurag00321/Portfolio/tree/main',
       desc: 'My portfolio website. This was created using Next.js and tailwindCSS. It is to showcase all my projects and my skills.',
       style: 'mb-4' 
     },
