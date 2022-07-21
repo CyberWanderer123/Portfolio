@@ -14,7 +14,7 @@ function About() {
         <div>
           <Image
             src="/assets/dev.png" width={600} height={600}
-            className="rounded-2xl mx-12 mt-8 justify-center "
+            className="rounded-2xl px-8 mt-8 justify-center "
           />
         </div>
       </div>

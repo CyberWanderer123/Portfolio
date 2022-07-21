@@ -21,7 +21,7 @@ function Projects() {
       style: 'mb-4' 
     },
     {
-      id: 2,
+      id: 3,
       image: '/assets/projects/WeatherApp.png',
       demo: 'https://anurag00321.github.io/Weather-app/',
       code: 'https://github.com/Anurag00321/Weather-app',
@@ -32,12 +32,12 @@ function Projects() {
   return (
     <div name="Projects" className='bg-gradient-to-b from-indigo-700 to-indigo-900'>
     
-        <h2 className='text-center text-3xl text-indigo-200 underline py-12'>My Projects</h2>
+        <h2 className='text-center text-3xl text-indigo-200 underline py-8'>My Projects</h2>
          <div className=' md:grid grid-cols-2'>
         {portfolios.map(({id, image, demo, code, desc, style}) => 
         <div key={id} className={'ml-20 bg-indigo-500 border border-indigo-400 mx-10 rounded-xl md:w-[500px] h-fit' + " " + style}>
         <Image src={image} alt="Netflix Clone" width="500" height="250" className="rounded-xl border-2 border-indigo-400"/>
-        <div className='justify-between text-center py-3 px-6 flex content-center border-b border-indigo-400'>
+        <div className='justify-between text-center py-3 flex content-center border-b border-indigo-400'>
           <a href={demo} target="_blank" rel='noreferrer'>
           <button className='px-12 rounded-xl bg-indigo-200' href={demo} >Demo</button>
           </a>
