@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div name="Contact" className="bg-gradient-to-b from-indigo-700 to-indigo-900 w-full h-screen ">
+    <div name="Contact" className="bg-gradient-to-b from-indigo-700 to-indigo-900 w-full h-full ">
       <div>
         <div className=" h-full">
           <h2 className="text-center text-indigo-200 underline text-3xl py-6">
