@@ -58,9 +58,9 @@ function Skills() {
     <div name="Skills" className='bg-gradient-to-b from-indigo-900 to-indigo-700 pb-8'>
       <div>
         <h2 className='text-indigo-200 text-center underline text-3xl py-8 '>My Skills</h2>
-        <div className='grid md:grid-cols-3 grid-cols-2 px-4 gap-12 md:mx-40 content-center'>
+        <div className='grid md:grid-cols-3 grid-cols-2 justify-items-center'>
         {images.map(({id, image, text, style}) => 
-        <div key={id} className={`text-center border-4 border-indigo-400 my-3 hover:scale-110 w-[150px] shadow-lg ${style}`}>
+        <div key={id} className={`text-center my-3 hover:scale-110 w-[150px]`}>
         <Image src={image} width={150} height={150} />
         <h3 className='border-t border-indigo-400 bg-indigo-200 font-sans font-bold'>{text}</h3>
        </div>
