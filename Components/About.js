@@ -9,12 +9,7 @@ function About() {
           <h2 className="text-3xl sm:text-5xl font-bold text-white">
             My name is Anurag and I am a Web Developer
           </h2>
-          <p className="text-gray-200 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-            quasi pariatur officia aliquid inventore reprehenderit nisi rem quis
-            architecto dicta eligendi fugiat vel optio! Ea, sapiente incidunt?
-            Enim, fuga molestiae!
-          </p>
+          
         </div>
         <div>
           <Image
