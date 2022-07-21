@@ -38,10 +38,10 @@ function Projects() {
         <div key={id} className={'ml-20 bg-indigo-500 border border-indigo-400 mx-10 rounded-xl md:w-[500px] h-fit' + " " + style}>
         <Image src={image} alt="Netflix Clone" width="500" height="250" className="rounded-xl border-2 border-indigo-400"/>
         <div className='justify-between text-center py-3 px-6 flex content-center border-b border-indigo-400'>
-          <a href={demo} target="_blank">
+          <a href={demo} target="_blank" rel='noreferrer'>
           <button className='px-12 rounded-xl bg-indigo-200' href={demo} >Demo</button>
           </a>
-          <a href={code} target="_blank">
+          <a href={code} target="_blank" rel='noreferrer'>
           <button className='px-12 rounded-xl  bg-indigo-200' href={code}>Code</button>
           </a>
         </div>

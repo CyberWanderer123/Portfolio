@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function About() {
   return (
@@ -6,7 +7,7 @@ function About() {
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row">
         <div>
           <h2 className="text-3xl sm:text-5xl font-bold text-white">
-            I'm Anurag, a Web Developer
+            My name is Anurag and I am a Web Developer
           </h2>
           <p className="text-gray-200 py-4 max-w-md">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
@@ -16,7 +17,7 @@ function About() {
           </p>
         </div>
         <div>
-          <img
+          <Image
             src="https://i.pinimg.com/originals/b8/b7/fa/b8b7faa068cb612f21a7f7268313064b.png"
             className="rounded-2xl mx-12 mt-8 w-2/3 md:w-full h-full justify-center "
           />
