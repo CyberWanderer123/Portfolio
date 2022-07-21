@@ -32,7 +32,7 @@ function Projects() {
   return (
     <div name="Projects" className='bg-gradient-to-b from-indigo-700 to-indigo-900'>
     
-        <h2 className='text-center text-3xl text-indigo-200 underline pt-16 pb-8'>My Projects</h2>
+        <h2 className='text-center text-3xl text-indigo-200 underline pt-8 pb-8'>My Projects</h2>
          <div className=' md:grid grid-cols-2 justify-items-center px-6'>
         {portfolios.map(({id, image, demo, code, desc, style}) => 
         <div key={id} className={' bg-indigo-500 border border-indigo-400 rounded-xl md:w-[500px] h-fit' + " " + style}>

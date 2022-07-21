@@ -18,19 +18,19 @@ function Contact() {
               name="name"
               type="text"
               placeholder="Enter your name"
-              className="w-96 p-4 bg-transparent border text-white focus:outline-none"
+              className="w-80 p-4 bg-transparent border text-white focus:outline-none"
             />
             <input
               name="email"
               type="text"
               placeholder="Enter your email"
-              className="w-96 p-4 bg-transparent border text-white focus:outline-none"
+              className="w-80 p-4 bg-transparent border text-white focus:outline-none"
             />
             <textarea
               name="message"
               rows="10"
               placeholder="Message"
-              className="w-96 p-4 bg-transparent border text-white focus:outline-none"
+              className="w-80 p-4 bg-transparent border text-white focus:outline-none"
             ></textarea>
 
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-4 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
