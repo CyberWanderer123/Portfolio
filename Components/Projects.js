@@ -27,6 +27,13 @@ function Projects() {
       code: 'https://github.com/Anurag00321/Weather-app',
       desc: 'Weather app made using React. It fetches weather data from openweathermap api.You can search for a specific city and get its min and max temp. ',
       style: '',
+    },
+    {
+      id: 4,
+      image: '/assets/projects/scroll.png',
+      demo: 'https://scroll-xi.vercel.app/',
+      code: 'https://github.com/Anurag00321/scroll',
+      desc: 'Clone of peerlist scroll component made using Next.js, tailwindCSS and firebase. You can create and send a post with context.',
     }
   ]
   return (
