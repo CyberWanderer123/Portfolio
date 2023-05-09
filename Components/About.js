@@ -7,7 +7,7 @@ function About() {
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row">
         <div>
           <h2 className="text-3xl sm:text-5xl py-6 font-bold text-white">
-            My name is Anurag and I am a Web Developer
+            My name is Anurag and I am a Web Developer, AI enthusiast. 
           </h2>
           
         </div>

@@ -6,6 +6,21 @@ function Projects() {
   const portfolios = [
     {
       id: 1,
+      image: '/assets/projects/Chat.png',
+      demo: 'https://chat-psi-rouge.vercel.app/',
+      code: '',
+      desc: 'A chat app made using react and firebase. It supports creating new user using email and user can chat with any other user from the list',
+      style: 'mb-4'
+    },
+    {
+      id: 5,
+      image: '/assets/projects/scroll.png',
+      demo: 'https://scroll-xi.vercel.app/',
+      code: 'https://github.com/Anurag00321/scroll',
+      desc: 'Clone of peerlist scroll component made using Next.js, tailwindCSS and firebase. You can create and send a post with context.',
+    },
+    {
+      id: 2,
       image: '/assets/projects/Portfolio.png',
       demo: 'https://portfolio-anurag4518.vercel.app/',
       code: 'https://github.com/Anurag00321/Portfolio/tree/main',
@@ -13,7 +28,7 @@ function Projects() {
       style: 'mb-4' 
     },
     {
-      id: 2,
+      id: 3,
       image: '/assets/projects/netflixClone.png',
       demo: 'https://netflix-clone-next-jutmlss9a-anurag4518.vercel.app/',
       code: 'https://github.com/Anurag00321/Netflix-Clone',
@@ -21,20 +36,14 @@ function Projects() {
       style: 'mb-4' 
     },
     {
-      id: 3,
+      id: 4,
       image: '/assets/projects/WeatherApp.png',
       demo: 'https://anurag00321.github.io/Weather-app/',
       code: 'https://github.com/Anurag00321/Weather-app',
       desc: 'Weather app made using React. It fetches weather data from openweathermap api.You can search for a specific city and get its min and max temp. ',
       style: '',
     },
-    {
-      id: 4,
-      image: '/assets/projects/scroll.png',
-      demo: 'https://scroll-xi.vercel.app/',
-      code: 'https://github.com/Anurag00321/scroll',
-      desc: 'Clone of peerlist scroll component made using Next.js, tailwindCSS and firebase. You can create and send a post with context.',
-    }
+    
   ]
   return (
     <div name="Projects" className='bg-gradient-to-b from-indigo-700 to-indigo-900'>
