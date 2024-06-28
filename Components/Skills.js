@@ -50,6 +50,18 @@ function Skills() {
       image: '/assets/skills/django.png',
       text: 'Django',
       style: 'shadow-black'
+    },
+    {
+      id: 9,
+      image: '/assets/skills/MongoDB.png',
+      text: 'MongoDB',
+      style: '',
+    },
+    {
+      id: 10,
+      image: '/assets/skills/Prisma.png',
+      text: 'Prisma',
+      style: '',
     }
   ]
 
