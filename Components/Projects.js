@@ -5,6 +5,14 @@ function Projects() {
 
   const portfolios = [
     {
+      id: 1,
+      image: '/assets/projects/lost-found.png',
+      demo: 'https://lost-found-gray.vercel.app/',
+      code: 'https://github.com/Anurag00321/lost-found',
+      desc: 'Lost and Found web app to reunite lost items with their owners.',
+      style: '',
+    },
+    {
       id: 2,
       image: '/assets/projects/Chat.png',
       demo: 'https://chat-psi-rouge.vercel.app/',
@@ -43,14 +51,7 @@ function Projects() {
       desc: 'Weather app made using React. It fetches weather data from openweathermap api.You can search for a specific city and get its min and max temp. ',
       style: '',
     },
-    {
-      id: 1,
-      image: '/assets/projects/lost-found.png',
-      demo: 'https://lost-found-gray.vercel.app/',
-      code: 'https://github.com/Anurag00321/lost-found',
-      desc: 'Lost and Found web app to reunite lost items with their owners.',
-      style: '',
-    },
+    
 
   ]
   return (
