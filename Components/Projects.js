@@ -5,7 +5,7 @@ function Projects() {
 
   const portfolios = [
     {
-      id: 1,
+      id: 2,
       image: '/assets/projects/Chat.png',
       demo: 'https://chat-psi-rouge.vercel.app/',
       code: '',
@@ -13,14 +13,14 @@ function Projects() {
       style: 'mb-4'
     },
     {
-      id: 5,
+      id: 3,
       image: '/assets/projects/scroll.png',
       demo: 'https://scroll-xi.vercel.app/',
       code: 'https://github.com/Anurag00321/scroll',
       desc: 'Clone of peerlist scroll component made using Next.js, tailwindCSS and firebase. You can create and send a post with context.',
     },
     {
-      id: 2,
+      id: 4,
       image: '/assets/projects/Portfolio.png',
       demo: 'https://portfolio-anurag4518.vercel.app/',
       code: 'https://github.com/Anurag00321/Portfolio/tree/main',
@@ -28,7 +28,7 @@ function Projects() {
       style: 'mb-4'
     },
     {
-      id: 3,
+      id: 5,
       image: '/assets/projects/netflixClone.png',
       demo: 'https://netflix-clone-next-jutmlss9a-anurag4518.vercel.app/',
       code: 'https://github.com/Anurag00321/Netflix-Clone',
@@ -36,7 +36,7 @@ function Projects() {
       style: 'mb-4'
     },
     {
-      id: 4,
+      id: 6,
       image: '/assets/projects/WeatherApp.png',
       demo: 'https://anurag00321.github.io/Weather-app/',
       code: 'https://github.com/Anurag00321/Weather-app',
@@ -44,7 +44,7 @@ function Projects() {
       style: '',
     },
     {
-      id: 6,
+      id: 1,
       image: '/assets/projects/lost-found.png',
       demo: 'https://lost-found-gray.vercel.app/',
       code: 'https://github.com/Anurag00321/lost-found',
