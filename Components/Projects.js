@@ -68,6 +68,13 @@ function Projects() {
       desc: 'A forum website I developed for a client, like reddit',
       style: '',
     },
+    {
+      id: 3,
+      image: '/assets/projects/agency.png',
+      demo: 'https://theadynex.com',
+      desc: 'Website for a marketing agency.',
+      style: '',
+    },
   ]
 
   return (
