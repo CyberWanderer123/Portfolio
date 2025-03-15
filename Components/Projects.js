@@ -51,30 +51,72 @@ function Projects() {
       desc: 'Weather app made using React. It fetches weather data from openweathermap api.You can search for a specific city and get its min and max temp. ',
       style: '',
     },
-    
-
   ]
+
+  const freelanceProjects = [
+    {
+      id: 1,
+      image: '/assets/projects/matrimony.png',
+      demo: 'https://fingerringmatch.com/',
+      desc: 'Matrimonial website I developed for a client.',
+      style: '',
+    },
+    {
+      id: 2,
+      image: '/assets/projects/Forum.png',
+      demo: '',
+      desc: 'A forum website I developed for a client, like reddit',
+      style: '',
+    },
+  ]
+
   return (
     <div name="Projects" className='bg-gradient-to-b from-indigo-700 to-indigo-900'>
+      <div className='container mx-auto px-4'>
+      <h2 className='text-center text-3xl text-indigo-200 underline pt-16 pb-8'>Freelance Projects</h2>
+        <div className='md:grid grid-cols-2 justify-items-center px-6 pb-8'>
+          {freelanceProjects.map(({ id, image, demo, code, desc, style }) =>
+            <div key={id} className={'bg-indigo-600 border border-indigo-300 rounded-xl md:mx-4 md:h-96 lg:w-[500px] h-fit' + " " + style}>
+              <Image src={image} width="500" height="250" className="rounded-xl md:w-fit border-2 border-indigo-300" />
+              <div className='justify-between text-center px-4 py-3 flex content-center border-b border-indigo-300'>
+                {demo && (
+                  <a href={demo} target="_blank" rel='noreferrer'>
+                    <button className='px-12 rounded-xl bg-indigo-100' href={demo}>Demo</button>
+                  </a>
+                )}
+                {code && (
+                  <a href={code} target="_blank" rel='noreferrer'>
+                    <button className='px-12 rounded-xl bg-indigo-100' href={code}>Code</button>
+                  </a>
+                )}
+              </div>
+              <div className='text-white text-center font-mono px-1 py-2'>
+                {desc}
+              </div>
+            </div>
+          )}
+        </div>
+        <h2 className='text-center text-3xl text-indigo-200 underline pt-8 pb-8'>Personal Projects</h2>
+        <div className='md:grid grid-cols-2 justify-items-center px-6'>
+          {portfolios.map(({ id, image, demo, code, desc, style }) =>
+            <div key={id} className={'bg-indigo-500 border border-indigo-400 rounded-xl md:mx-4 md:h-96 lg:w-[500px] h-fit' + " " + style}>
+              <Image src={image} width="500" height="250" className="rounded-xl md:w-fit border-2 border-indigo-400" />
+              <div className='justify-between text-center px-4 py-3 flex content-center border-b border-indigo-400'>
+                <a href={demo} target="_blank" rel='noreferrer'>
+                  <button className='px-12 rounded-xl bg-indigo-200' href={demo}>Demo</button>
+                </a>
+                <a href={code} target="_blank" rel='noreferrer'>
+                  <button className='px-12 rounded-xl bg-indigo-200' href={code}>Code</button>
+                </a>
+              </div>
+              <div className='text-white text-center font-mono px-1 py-2'>
+                {desc}
+              </div>
+            </div>
+          )}
+        </div>
 
-      <h2 className='text-center text-3xl text-indigo-200 underline pt-8 pb-8'>My Projects</h2>
-      <div className=' md:grid grid-cols-2 justify-items-center px-6'>
-        {portfolios.map(({ id, image, demo, code, desc, style }) =>
-          <div key={id} className={' bg-indigo-500 border border-indigo-400 rounded-xl md:mx-4 md:h-96 lg:w-[500px] h-fit' + " " + style}>
-            <Image src={image} width="500" height="250" className="rounded-xl md:w-fit border-2 border-indigo-400" />
-            <div className='justify-between text-center px-4 py-3 flex content-center border-b border-indigo-400'>
-              <a href={demo} target="_blank" rel='noreferrer'>
-                <button className='px-12 rounded-xl bg-indigo-200' href={demo} >Demo</button>
-              </a>
-              <a href={code} target="_blank" rel='noreferrer'>
-                <button className='px-12 rounded-xl  bg-indigo-200' href={code}>Code</button>
-              </a>
-            </div>
-            <div className='text-white text-center font-mono px-1 py-2'>
-              {desc}
-            </div>
-          </div>
-        )}
+       
       </div>
     </div>
   )
